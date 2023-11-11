@@ -2,7 +2,7 @@ import socket
 import time
 
 IP_ADDR = '0.0.0.0'
-TCP_PORT = 5000  # 포트 번호를 5000으로 변경
+TCP_PORT = 5005  # 포트 번호를 5005으로 변경
 BUFFER_SIZE = 1024
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

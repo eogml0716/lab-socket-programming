@@ -3,7 +3,7 @@ from flask_restful import Resource, Api
 import os
 import subprocess  # subprocess 모듈 추가
 
-buildBranch = 'master'
+buildBranch = 'main'
 buildPath = '/home/eogml1755/lab-socket-programming/'
 
 # buildCommand 대신 subprocess.run을 사용
